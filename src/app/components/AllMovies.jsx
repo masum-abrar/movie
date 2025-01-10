@@ -55,8 +55,8 @@ const AllMovies = () => {
             {/* Hover Content (Tooltip-like effect) */}
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 sm:top-40">
   {/* Icons */}
-  <div className="flex justify-center gap-4 bg-stone-900 p-2 rounded-lg">
-    <div className="flex items-center text-white">
+  <div className="lg:flex justify-center gap-4 bg-stone-900 p-2 rounded-lg">
+    <div className="lg:flex items-center text-white">
       <FaEye className="mr-1" />
       {/* Hide the value on very small screens */}
       <span className="hidden sm:block">{movie.eyeCount}</span>

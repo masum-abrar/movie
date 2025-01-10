@@ -1,7 +1,10 @@
 import AllMovies from "./components/AllMovies";
+import Banner from "./components/Banner";
 import Carousel from "./components/Carousel";
 import Category from "./components/Category";
 import Navbar from "./components/Navbar";
+import PopularReviews from "./components/PopularReviews";
+import Reviews from "./components/Reviews";
 
 
 export default function Home() {
@@ -18,6 +21,15 @@ export default function Home() {
    </div>
    <div>
     <AllMovies/>
+   </div>
+   <div>
+    <Banner/>
+   </div>
+   <div>
+    <Reviews/>
+   </div>
+   <div>
+    <PopularReviews/>
    </div>
    </div>
   );
