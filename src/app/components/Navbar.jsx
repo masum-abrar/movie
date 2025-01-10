@@ -50,10 +50,17 @@ const Navbar = () => {
  
   {/* <CiSearch className='bg-white' /> */}
 
-  <div className="navbar-end ">
-  <IoSearchOutline style={{ color: 'white' }} className=' size-6 mr-5'/>
-    <a className="btn px-8 py-0 border-none text-white bg-[#00ac1c] font-bold"> <span><FaPlus style={{ color: 'white' }}></FaPlus></span> LOG </a>
-  </div>
+  <div className="navbar-end hidden lg:flex items-center gap-4">
+  {/* Search Icon */}
+  <IoSearchOutline style={{ color: 'white' }} className="text-2xl mr-5" />
+  
+  {/* Button */}
+  <a className="btn px-8 py-0 border-none text-white bg-[#00ac1c] font-bold flex items-center gap-2">
+    <FaPlus style={{ color: 'white' }} />
+    <span>LOG</span>
+  </a>
+</div>
+
 </div>
     </div>
   )
