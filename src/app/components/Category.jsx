@@ -6,22 +6,22 @@ const Category = () => {
       {/* Dropdown Section */}
       <div className="flex flex-wrap items-center gap-4">
         <span className="font-semibold text-gray-400">Browse By:</span>
-        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 bg-[#2c3440]">
+        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 ">
           <option className="bg-[#1c232b]">Year</option>
           <option className="bg-[#1c232b]">2022</option>
           <option className="bg-[#1c232b]">2023</option>
           <option className="bg-[#1c232b]">2024</option>
         </select>
-        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 bg-[#2c3440]">
+        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 ">
           <option>Rating</option>
         </select>
-        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 bg-[#2c3440]">
+        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 ">
           <option>Genre</option>
         </select>
-        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 bg-[#2c3440]">
+        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 ">
           <option>Service</option>
         </select>
-        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 bg-[#2c3440]">
+        <select className="bg-[#1c232b] text-gray-400 rounded-md p-2 ">
           <option>Other</option>
         </select>
       </div>
