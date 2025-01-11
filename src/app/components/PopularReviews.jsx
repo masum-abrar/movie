@@ -9,7 +9,7 @@ const PopularReviews = () => {
       year: "2024",
       reviewer: "ziwe",
       stars: 4,
-      likes: 10235,
+      likes: 1023,
       text: "The dangers of a little crush",
       reactions: 123,
       comments: 159,
@@ -52,14 +52,14 @@ const PopularReviews = () => {
   ];
 
   const popularUsers = [
-    { id: 1, name: "James (Schaffrillas)", likes: "1,042,100 likes", avatar: "https://a.ltrbxd.com/resized/avatar/upload/1/6/4/9/8/2/8/0/shard/avtr-0-48-0-48-crop.jpg?v=f09b89dacb" },
+    { id: 1, name: "James (Schaffrillas)", likes: "1,042,10 likes", avatar: "https://a.ltrbxd.com/resized/avatar/upload/1/6/4/9/8/2/8/0/shard/avtr-0-48-0-48-crop.jpg?v=f09b89dacb" },
     
     { id: 2, name: "Karsten", likes: "608,000 likes", avatar: "https://a.ltrbxd.com/resized/avatar/upload/1/6/4/9/8/2/8/0/shard/avtr-0-48-0-48-crop.jpg?v=f09b89dacb" },
     { id: 3, name: "jeaba", likes: "1,089 reviews", avatar: "https://a.ltrbxd.com/resized/avatar/upload/9/4/1/6/5/6/2/shard/avtr-0-48-0-48-crop.jpg?v=0c98965dc2" },
   ];
 
   return (
-    <div className="container max-w-5xl mx-auto mt-20">
+    <div className="container max-w-5xl mx-auto mt-20 p-3">
       {/* Main Section */}
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Popular Reviews Section */}
@@ -163,7 +163,7 @@ const PopularReviews = () => {
 
           </div>
 
-          <div className="top-10">
+          <div className="top-10 bottom-20">
           <h2 className="text-lg font-bold text-gray-400 mb-4 capitalize">
              Can't find a flim?
             </h2>

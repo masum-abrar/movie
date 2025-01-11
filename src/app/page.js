@@ -2,6 +2,7 @@ import AllMovies from "./components/AllMovies";
 import Banner from "./components/Banner";
 import Carousel from "./components/Carousel";
 import Category from "./components/Category";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PopularReviews from "./components/PopularReviews";
 import Reviews from "./components/Reviews";
@@ -30,6 +31,9 @@ export default function Home() {
    </div>
    <div>
     <PopularReviews/>
+   </div>
+   <div >
+    <Footer/>
    </div>
    </div>
   );

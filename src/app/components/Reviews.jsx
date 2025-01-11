@@ -12,16 +12,16 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="container max-w-5xl mx-auto mb-4 ">
-      {/* Header Section */}
+    <div className="container max-w-5xl mx-auto mb-4 p-3 ">
+ 
       <div className="flex justify-between text-gray-400 mb-4">
         <h1 className="text-lg font-bold">JUST REVIEWED...</h1>
         <p className="cursor-pointer hover:underline">2,340,259,273 films watched</p>
       </div>
-      {/* Horizontal Line */}
+     
       <hr className="border-t border-gray-400 mb-6" />
 
-      {/* Movie Cards */}
+  
       <div className="grid grid-cols-6 md:grid-cols-6 gap-4">
         {movies.map((movie) => (
           <div
