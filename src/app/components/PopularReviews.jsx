@@ -74,7 +74,7 @@ const PopularReviews = () => {
               key={review.id}
               className="flex mb-6 bg-[#2c3440] p-4 rounded-lg shadow-lg"
             >
-              {/* Movie Poster */}
+            
               <div className="w-20 h-28">
                 <img
                   src={review.image}
@@ -82,7 +82,7 @@ const PopularReviews = () => {
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
-              {/* Review Content */}
+             
               <div className="ml-4 flex flex-col justify-between">
                 <div>
                   <h2 className="text-white font-bold text-lg">
@@ -113,7 +113,7 @@ const PopularReviews = () => {
           ))}
         </div>
 
-        {/* Crew Picks Section */}
+     
         <div className="w-full lg:w-1/3">
           {/* Crew Picks */}
           <div className="mb-8">
@@ -132,7 +132,7 @@ const PopularReviews = () => {
             </div>
           </div>
 
-          {/* Popular Users */}
+         
           <div>
             <h2 className="text-lg font-bold text-gray-400 mb-4">
               POPULAR REVIEWERS

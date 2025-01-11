@@ -54,7 +54,7 @@ const AllMovies = () => {
 
            
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 sm:top-40">
-  {/* Icons */}
+
   <div className="lg:flex justify-center gap-4 bg-stone-900 p-2 rounded-lg transform group-hover:scale-90 sm:group-hover:scale-100 transition-transform duration-300">
     <div className="lg:flex items-center text-white text-sm group-hover:text-xs sm:group-hover:text-sm">
       <FaEye className="mr-1 group-hover:text-xs sm:group-hover:text-sm" />
